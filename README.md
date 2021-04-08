@@ -1,9 +1,19 @@
 # Team-3
 
+## Team Logo, Icon or Meme
+
 TinkerCad Circuit basic design URL is
 https://www.tinkercad.com
 
 ## Team Values
+
+## Retrospective Day 1
+
+## Retrospective Day 2
+
+## Retrospective Final Day
+
+---------------------------------------------------------
 
 This is the readme. Formatting of text is as follows.
 
