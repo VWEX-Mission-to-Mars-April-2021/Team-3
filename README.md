@@ -32,7 +32,7 @@ Not getting so tied
 
 Focus
 
-I learnt how to upload a meme
+learn how to upload a meme
 
 ## Retrospective Final Day
 
