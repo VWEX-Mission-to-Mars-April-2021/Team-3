@@ -7,7 +7,11 @@ https://www.tinkercad.com
 
 ## Team Values
 
+To come first so that everyone else become 4th and 5th
+
 ## Scrum Git
+
+Samuel Axolatal
 
 ## Retrospective Day 1
 
