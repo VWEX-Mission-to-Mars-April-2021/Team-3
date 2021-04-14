@@ -10,8 +10,9 @@ const int RIGHT_FEEDBACK = 3;
 
 volatile int leftcounter = 0; // initiate counter to zero for start
 volatile int rightcounter = 0; // counter could always be reset
-volatile int leftspeed = 0;
-volatile int rightspeed = 0;
+volatile int leftspeed = 80;
+volatile int rightspeed = 240;
+volatile int direction = 0;
 
 
 const int RIGHT_FORWARD = 12;
@@ -42,16 +43,33 @@ void setup()
   pinMode(RIGHT_REVERSE, OUTPUT);
   pinMode(LEFT_REVERSE, OUTPUT);
   
-  TurnOnMotors();
   MoveForward();
   
 }
 
 void loop()
 {
-  
-  
-
+  delay(100);
+  analogWrite(LEFT_ENABLE,leftspeed);
+  analogWrite(RIGHT_ENABLE,rightspeed);
+  if (direction == 0){
+    leftspeed = leftspeed + 20;
+    rightspeed = rightspeed -20;
+    if (leftspeed >= 240){
+      direction = 1;
+    }
+  }
+  else{
+    rightspeed = rightspeed + 20;
+    leftspeed = leftspeed - 20;
+    if (rightspeed >= 240){
+      direction = 0;
+    }
+  }
+  if (millis() >= 10000){
+    TurnOffMotors();
+    exit(0);
+  }
 }
 
 void MoveForward()
