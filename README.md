@@ -1,6 +1,7 @@
 # The Third Team
 
 ## Team Logo, Icon or Meme
+https://preview.redd.it/0eozepb9rpu51.jpg?auto=webp&s=2c72131394570536c29db99601bf256ed139cc55
 
 TinkerCad Circuit basic design URL is
 https://www.tinkercad.com
@@ -16,6 +17,16 @@ Samuel Axolatal
 ## Retrospective Day 1
 
 ## Retrospective Day 2
+
+What went well-
+Did a lot of work
+Better communication
+Learning from misstakes
+
+Even better if-
+Not getting so tied
+Focus
+
 
 ## Retrospective Final Day
 
