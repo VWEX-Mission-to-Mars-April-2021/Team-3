@@ -19,12 +19,17 @@ Samuel Axolatal
 ## Retrospective Day 2
 
 What went well-
+
 Did a lot of work
+
 Better communication
+
 Learning from misstakes
 
 Even better if-
+
 Not getting so tied
+
 Focus
 
 
