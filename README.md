@@ -1,4 +1,4 @@
-# Team-3
+# The Third Team
 
 ## Team Logo, Icon or Meme
 
