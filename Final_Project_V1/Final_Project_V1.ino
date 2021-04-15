@@ -92,7 +92,7 @@ void loop()
       HardStop();
       delay(1000);
       Reverse();
-      delay(3000);
+      delay(4000);
       TurnOffMotors();
       Boogie();
       TurnOffMotors();
@@ -217,7 +217,7 @@ void TurnAround()
 {
   TurnOnMotors();
   TurnRight();
-  delay(1670);
+  delay(2000);
   TurnOffMotors();
   roverDirection = 0;
   delay(100);
@@ -226,9 +226,9 @@ void Boogie()
 {
   TurnOnMotors();
   TurnLeft();
-  delay(2760);
+  delay(2800);
   TurnRight();
-  delay(2760);
+  delay(2800);
   
 }
 void LeftMotorISR(){
