@@ -63,7 +63,7 @@ void loop()
     int distance = sonar.ping_cm();
     Serial.print(distance);
     Serial.println("cm");
-    if(distance <= 12)
+    if(distance <= 12 && distance >0)
     {
       HardStop();
       delay(1000);
@@ -87,7 +87,7 @@ void loop()
     int distance = Dsonar.ping_cm();
     Serial.print(distance);
     Serial.println("cm");
-    if(distance >= 15)
+    if(distance >= 15 && distance != 0)
     {
       HardStop();
       delay(1000);
@@ -229,8 +229,54 @@ void Boogie()
   delay(2800);
   TurnRight();
   delay(2800);
-  
+  Left90();
+  figeight();
 }
+void figeight()
+{
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Left90();
+  
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Right90();
+  
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Right90();
+  
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Right90();
+  
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Right90();
+
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Left90();
+
+  MoveForward();
+  delay(1000);
+  HardStop();
+  delay(500);
+  Left90();
+  }
+  
 void LeftMotorISR(){
   // adds one to the counter on each motor revolution
   leftcounter++;
