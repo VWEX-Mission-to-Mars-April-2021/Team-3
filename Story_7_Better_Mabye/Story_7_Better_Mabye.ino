@@ -62,7 +62,7 @@ void loop()
   {
     TurnOnMotors();
     TurnLeft();
-    delay(800);
+    delay(680);
     TurnOffMotors();
     direction = 0;
     times = times + 1;

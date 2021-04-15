@@ -54,7 +54,7 @@ void loop()
   {
     MoveForward();
     TurnOnMotors();
-    delay(1000);
+    delay(790);
     TurnOffMotors();
     direction = 0;
     leftcounter = 0;
@@ -63,7 +63,7 @@ void loop()
   {
     TurnOnMotors();
     TurnRight();
-  delay(1000);
+  delay(790);
     TurnOffMotors();
     delay(100000);
     //direction = 0;
