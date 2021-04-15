@@ -36,6 +36,18 @@ learn how to upload a meme
 
 ## Retrospective Final Day
 
+I was really good will the help we got we were never lost and always had some direction to go in
+
+Communication was good in the smaller groups, larger groups made communication harder
+
+We did well on our tasks we completed all except 11 and tecnically 8 but we did a figure of eight at the end
+
+It would have been better to have more rovers as it would have allowed for us to test our programs better
+
+There was usually always someone in our group so if we ever needed help we could ask for it
+
+We could have done better to spread out the work at times
+
 ---------------------------------------------------------
 
 This is the readme. Formatting of text is as follows.
