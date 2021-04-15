@@ -16,7 +16,7 @@ volatile int leftcounter = 0; // initiate counter to zero for start
 volatile int rightcounter = 0; // counter could always be reset
 volatile int leftspeed = 160;
 volatile int rightspeed = 160;
-volatile int direction = 0;//what the rover is doing right now
+volatile int roverDirection = 0;//what the rover is doing right now
 volatile int times = 0;
 
 
@@ -56,7 +56,7 @@ void setup()
 void loop()
 {
   
-  if(direction==0)
+  if(roverDirection==0)
   {
     delay(50);
     Serial.print("Ping:");
@@ -70,7 +70,7 @@ void loop()
       Reverse();
       delay(2000);
       TurnAround();
-      direction=1;
+      roverDirection=1;
       leftcounter  = 0;
       rightcounter = 0;
     }
@@ -79,7 +79,7 @@ void loop()
       Straight();
     }
   }
-  if (direction==1)
+  if (roverDirection==1)
   {
 
     delay(50);
@@ -187,7 +187,7 @@ void Left90()
     TurnLeft();
   delay(690);
     TurnOffMotors();
-    direction = 0;
+    roverDirection = 0;
     delay(1000);
 }
 
@@ -197,7 +197,7 @@ void Right90()
     TurnRight();
     delay(690);
     TurnOffMotors();
-    direction = 0;
+    roverDirection = 0;
     delay(100);
 }
 
@@ -218,7 +218,7 @@ void TurnAround()
   TurnRight();
   delay(1380);
   TurnOffMotors();
-  direction = 0;
+  roverDirection = 0;
   delay(100);
 }
 void Boogie()
