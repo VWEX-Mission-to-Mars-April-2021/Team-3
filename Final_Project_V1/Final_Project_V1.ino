@@ -87,7 +87,7 @@ void loop()
     int distance = Dsonar.ping_cm();
     Serial.print(distance);
     Serial.println("cm");
-    if(distance <= 15)
+    if(distance >= 15)
     {
       HardStop();
       delay(1000);
@@ -217,7 +217,7 @@ void TurnAround()
 {
   TurnOnMotors();
   TurnRight();
-  delay(1380);
+  delay(1450);
   TurnOffMotors();
   roverDirection = 0;
   delay(100);
