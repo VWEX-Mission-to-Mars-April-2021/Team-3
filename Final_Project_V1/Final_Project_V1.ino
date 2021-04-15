@@ -87,7 +87,7 @@ void loop()
     int distance = Dsonar.ping_cm();
     Serial.print(distance);
     Serial.println("cm");
-    if(distance >= 17)
+    if(distance >= 15)
     {
       HardStop();
       delay(1000);
