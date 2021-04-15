@@ -132,7 +132,7 @@ void Left90()
 {
     TurnOnMotors();
     TurnLeft();
-  delay(800);
+  delay(690);
     TurnOffMotors();
     direction = 0;
     delay(1000);
@@ -142,7 +142,7 @@ void Right90()
 {
   TurnOnMotors();
     TurnRight();
-  delay(800);
+  delay(690);
     TurnOffMotors();
     direction = 0;
     delay(100);
