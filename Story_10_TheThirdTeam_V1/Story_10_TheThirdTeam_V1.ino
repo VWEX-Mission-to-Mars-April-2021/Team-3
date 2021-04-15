@@ -62,7 +62,7 @@ void loop()
   HardStop();
   delay(2000);
   Reverse();
-  delay(2000);
+  delay(500);
   HardStop();
   exit(0);
     

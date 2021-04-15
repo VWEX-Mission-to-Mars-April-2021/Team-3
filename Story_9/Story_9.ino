@@ -69,7 +69,7 @@ void loop()
   TurnOffMotors();
   delay(1000);
   Left90();
-  delay(1000)
+  delay(1000);
   }
   else
   {
