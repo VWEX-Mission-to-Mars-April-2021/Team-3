@@ -56,17 +56,17 @@ void loop()
     delay(1500);
     TurnOffMotors();
     direction = 1;
-    delay(100);
+    delay(1000);
    }
   if (direction == 1)
   {
     TurnOnMotors();
     TurnLeft();
-  delay(810);
+    delay(800);
     TurnOffMotors();
     direction = 0;
     times = times + 1;
-    delay(100);
+    delay(1000);
     if (times == 4)
     {
       direction = 2;
