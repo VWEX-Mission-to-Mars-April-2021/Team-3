@@ -109,6 +109,7 @@ void loop()
 
 void Straight()
 {
+  MoveForward();
   analogWrite(LEFT_ENABLE,leftspeed);
   analogWrite(RIGHT_ENABLE,rightspeed);
   
